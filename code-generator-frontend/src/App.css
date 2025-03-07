@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.api-config {
+  margin-bottom: 20px;
+}
+
+.config-field {
+  margin-bottom: 10px;
+}
+
+.config-field label {
+  margin-right: 10px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.code-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.code-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.copy-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.payload-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.loading, .error {
+  color: #ff6b6b;
+  font-weight: bold;
+}
